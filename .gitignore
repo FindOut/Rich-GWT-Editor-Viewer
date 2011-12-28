@@ -19,7 +19,7 @@ gwt-unitCache/
 /com.example.library.myeditor/src/com/allen_sauer/gwt/com.example.library.myeditor/public/gwt-com.example.library.myeditor.swf
 
 # /com.example.library.myeditor/war/
-/com.example.library.myeditor/war/demo
+/com.example.library.myeditor/war/com_example_library_myeditor
 /com.example.library.myeditor/war/test
 
 # /com.example.library.myeditor/war/WEB-INF/
