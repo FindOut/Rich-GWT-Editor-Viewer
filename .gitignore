@@ -31,7 +31,7 @@ gwt-unitCache/
 /com.example.library.editor/war/WEB-INF/deploy
 /com.example.library.editor/war/WEB-INF/classes
 
-/com.example.library.editor/war/com.example.library.editor/
+/com.example.library.editor/war/org.eclipse.example.library.LibraryEditor/
 
 # /com.example.library.editor/war/WEB-INF/appengine-generated/
 /com.example.library.editor/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml

@@ -1,2 +1,0 @@
-# Module com_example_library_myeditor
-# RPC service class, partial path of RPC policy file
