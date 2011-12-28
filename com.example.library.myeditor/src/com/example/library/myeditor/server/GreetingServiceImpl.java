@@ -23,48 +23,21 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements Greetin
 
 	public byte[] greetServer(String input) throws IllegalArgumentException {
 
-		LibraryPackage packageInstance = LibraryPackage.eINSTANCE;
+    // Initialize the Library package
+    @SuppressWarnings("unused")
+    LibraryPackage packageInstance = LibraryPackage.eINSTANCE;
 
 		byte[] modelData = getModelBinaryData("/kth.library");
 
 		return modelData;
 	}
 
-	/**
-	 * Escape an html string. Escaping data received from the client helps to
-	 * prevent cross-site script vulnerabilities.
-	 * 
-	 * @param html
-	 *            the html string to escape
-	 * @return the escaped string
-	 */
-	private String escapeHtml(String html) {
-		if (html == null) {
-			return null;
-		}
-		return html.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
-	}
-
-//	private static Library loadLibrary(String pathName) throws IOException {
-//		ResourceSet rs = new ResourceSetImpl();
-//		rs.getResourceFactoryRegistry().getExtensionToFactoryMap().put("library", new XMIResourceFactoryImpl());
-//		Resource resource = rs.getResource(URI.createFileURI(pathName), true);
-//		Library library = (Library) resource.getContents().get(0);
-//		return library;
-//	}
-
 	private static byte[] getModelBinaryData(String modelName) {
-//		ResourceSet rs = new ResourceSetImpl();
-//		rs.getResourceFactoryRegistry().getExtensionToFactoryMap().put("library", new XMIResourceFactoryImpl());
-//		Resource resource = rs.createResource(URI.createURI(modelName));
-		
 		Resource resource = new BinaryResourceImpl(URI.createURI(modelName));
 
 		Library library = createLibraryModel();
 
 		resource.getContents().add(library);
-//		Map<Object, Object> saveOptions = new HashMap<Object, Object>();
-//		saveOptions.put(XMIResource.OPTION_BINARY, Boolean.TRUE);
 		ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
 		try {
 			resource.save(byteArrayOutputStream, null);
