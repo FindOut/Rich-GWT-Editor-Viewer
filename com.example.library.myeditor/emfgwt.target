@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
 
-<target name="EMF for GWT Runtime" sequenceNumber="28">
+<target name="EMF for GWT Runtime" sequenceNumber="29">
 <locations>
 <location includeAllPlatforms="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.emf.gwt.ecore.feature.group" version="2.7.1.v20110913-1156"/>
@@ -10,7 +10,6 @@
 <unit id="org.eclipse.emf.gwt.sdk.feature.group" version="2.7.1.v20110913-1526"/>
 <repository location="http://download.eclipse.org/modeling/emf/emf/updates/2.7/"/>
 </location>
-<location path="/Development/GWT2.4/eclipse" type="Profile"/>
+<location path="${eclipse_home}" type="Profile"/>
 </locations>
 </target>
-
