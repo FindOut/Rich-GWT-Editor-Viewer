@@ -2,3 +2,52 @@
 bin/
 .DS_Store
 com.example.library.myeditor/war/com_example_library_myeditor
+
+# GWT Cache
+gwt-unitCache/
+
+# /com.example.library.myeditor/
+/com.example.library.myeditor/tomcat
+/com.example.library.myeditor/www
+/com.example.library.myeditor/.gwt-cache
+/com.example.library.myeditor/bin
+/com.example.library.myeditor/build
+/com.example.library.myeditor/.gwt
+/com.example.library.myeditor/gwt-unitCache
+
+# /com.example.library.myeditor/src/com/allen_sauer/gwt/com.example.library.myeditor/public/
+/com.example.library.myeditor/src/com/allen_sauer/gwt/com.example.library.myeditor/public/gwt-com.example.library.myeditor.swf
+
+# /com.example.library.myeditor/war/
+/com.example.library.myeditor/war/demo
+/com.example.library.myeditor/war/test
+
+# /com.example.library.myeditor/war/WEB-INF/
+/com.example.library.myeditor/war/WEB-INF/classes
+/com.example.library.myeditor/war/WEB-INF/deploy
+/com.example.library.myeditor/war/WEB-INF/appengine-generated
+
+# /com.example.library.editor/war/WEB-INF/
+/com.example.library.editor/war/WEB-INF/deploy
+/com.example.library.editor/war/WEB-INF/classes
+
+/com.example.library.editor/war/com.example.library.editor/
+
+# /com.example.library.editor/war/WEB-INF/appengine-generated/
+/com.example.library.editor/war/WEB-INF/appengine-generated/datastore-indexes-auto.xml
+/com.example.library.editor/war/WEB-INF/appengine-generated/local_db.bin
+
+# App Engine SDK
+appengine-api-1.0-sdk-*.jar
+appengine-api-labs-*.jar
+appengine-jsr107cache-*.jar
+datanucleus-appengine-1.0.10.final.jar
+datanucleus-core-1.1.5.jar
+datanucleus-jpa-1.1.5.jar
+geronimo-jpa_3.0_spec-1.1.1.jar
+geronimo-jta_1.1_spec-1.1.1.jar
+jdo2-api-2.3-eb.jar
+jsr107cache-1.1.jar
+
+# GWT SDK
+gwt-servlet.jar
