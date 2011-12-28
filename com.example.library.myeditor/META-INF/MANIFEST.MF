@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Myeditor
+Bundle-SymbolicName: com.example.library.myeditor
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.example.library.myeditor,
+ com.example.library.myeditor.server
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.example.library;bundle-version="1.0.0";visibility:=reexport,
+ org.eclipse.emf.gwt.common;bundle-version="2.6.0",
+ org.eclipse.emf.gwt.ecore;bundle-version="2.7.0",
+ org.eclipse.emf.gwt.ecore.change;bundle-version="2.7.1",
+ com.example.library.edit;bundle-version="1.0.0",
+ org.eclipse.emf.gwt.edit.ui;bundle-version="2.7.0"

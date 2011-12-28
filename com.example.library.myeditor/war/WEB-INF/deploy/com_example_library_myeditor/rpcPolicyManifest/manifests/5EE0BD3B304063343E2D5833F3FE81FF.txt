@@ -1,0 +1,2 @@
+serviceClass: com.example.library.myeditor.client.GreetingService
+path: 62F2C884C27014E18067717126609B29.gwt.rpc

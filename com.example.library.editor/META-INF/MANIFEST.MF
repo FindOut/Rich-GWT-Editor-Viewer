@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: com.example.library.editor;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: org.eclipse.example.library.presentation
+Require-Bundle: com.example.library.edit;visibility:=reexport,
+ org.eclipse.emf.gwt.edit.ui;visibility:=reexport
+Bundle-ActivationPolicy: lazy

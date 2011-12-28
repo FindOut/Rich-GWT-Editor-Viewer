@@ -1,0 +1,2 @@
+serviceClass: org.eclipse.emf.ecore.resource.URIService
+path: B8BB2413C69073BB82817A6289F419E3.gwt.rpc
