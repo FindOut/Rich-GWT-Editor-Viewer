@@ -1,5 +1,6 @@
 package com.example.library.myeditor.client;
 
+
 import com.google.gwt.dom.client.Style.Cursor;
 import com.hydro4ge.raphaelgwt.client.Attr;
 import com.hydro4ge.raphaelgwt.client.DragCallback;

@@ -12,12 +12,16 @@
 	<!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
 
 	<!-- Other module inherits                                      -->
-	<inherits name="com.hydro4ge.raphaelgwt.RaphaelGWTWithDebugging" />
+    <inherits name='com.hydro4ge.raphaelgwt.RaphaelGWT' />
 	<inherits name="org.eclipse.example.library.Library" />
 	<inherits name="org.eclipse.example.library.LibraryEdit" />
 
 	<!-- Specify the app entry point class.                         -->
 	<entry-point
 		class="com.example.library.myeditor.client.ClientEditorEntryPoint">
-	</entry-point>
+	</entry-point>	
+	
+	<!-- enable next line to use un-minified raphael.js sources     -->
+    <!-- <set-property name="raphaelgwt.mode" value="debug" />      -->
+	
 </module>

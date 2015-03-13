@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.6"?>
-
-<target name="EMF for GWT Runtime" sequenceNumber="29">
+<?pde version="3.8"?><target name="EMF for GWT Runtime" sequenceNumber="30">
 <locations>
-<location includeAllPlatforms="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
-<unit id="org.eclipse.emf.gwt.ecore.feature.group" version="2.7.1.v20110913-1156"/>
-<unit id="org.eclipse.emf.gwt.common.feature.group" version="2.7.0.v20110913-1156"/>
-<unit id="org.eclipse.emf.gwt.feature.group" version="2.7.1.v20110913-1526"/>
-<unit id="org.eclipse.emf.gwt.sdk.feature.group" version="2.7.1.v20110913-1526"/>
-<repository location="http://download.eclipse.org/modeling/emf/emf/updates/2.7/"/>
-</location>
 <location path="${eclipse_home}" type="Profile"/>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.emf.gwt.ecore.feature.group" version="2.9.0.v20140519-0339"/>
+<unit id="org.eclipse.emf.gwt.feature.group" version="2.9.0.v20140519-0339"/>
+<unit id="org.eclipse.emf.gwt.sdk.feature.group" version="2.9.0.v20140519-0339"/>
+<unit id="org.eclipse.emf.gwt.common.feature.group" version="2.9.0.v20140519-0339"/>
+<repository location="http://download.eclipse.org/modeling/emf/emf/updates/2.10"/>
+</location>
 </locations>
 </target>
